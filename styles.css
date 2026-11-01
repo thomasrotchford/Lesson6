@@ -104,3 +104,33 @@ form {
 form div {
   margin-bottom: 1em;
 }
+
+label {
+  display: block;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: var(--bg-button);
+  color: var(--text-main);
+  padding: 0.5em 1em;
+  border: 0;
+}
+
+button:hover {
+  background-color: var(--bg-card);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--bg-header);
+  padding: 1em;
+}
