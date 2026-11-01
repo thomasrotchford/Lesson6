@@ -25,3 +25,28 @@ body {
 }
 
 
+/* Header */
+header {
+  background-color: var(--bg-header);
+  padding: 1em;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  background-color: var(--bg-header);
+  padding: 1em;
+}
+
+nav a {
+  color: var(--text-main);
+  text-decoration: none;
+  padding: 0.3em;
+}
+
+nav a:hover {
+  background-color: var(--bg-button);
+}
