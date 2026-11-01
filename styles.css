@@ -50,3 +50,26 @@ nav a {
 nav a:hover {
   background-color: var(--bg-button);
 }
+
+/* Main content */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Topic cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+.card {
+  background-color: var(--bg-card);
+  padding: 1em;
+}
+
+.card a {
+  color: var(--text-main);
+}
