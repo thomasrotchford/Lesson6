@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Thomas Rotchford">
+    <meta name="description" content="Common HTML tags and atributes with examples.">
+    <meta name="keywords" content="HTML, CSS, WebDev">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Tags | HTML &amp; CSS Quick Reference</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML &amp; CSS Quick Reference</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ref.html">HTML Tags</a>
+        <a href="css-box-model.html">Box Model</a>
+        <a href="css-ui.html">CSS UI</a>
+        <a href="css-at-rules.html">At-Rules</a>
+        <a href="request.html">Suggest a Topic</a>
+    </nav>
+
+    <main>
+        <h2>HTML Tag Quick Reference</h2>
+        <p>Common tags, what they do, and how to write them</p>
+
+        <section>
+            <h3>Head</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Purpose</th>
+                        <th>Attributes</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;head&gt;</code></td>
+                        <td>Holds page metadata</td>
+                        <td>none</td>
+                        <td><code>&lt;head&gt;...&lt;/head&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;title&gt;</code></td>
+                        <td>Browser tab titel</td>
+                        <td>none</td>
+                        <td><code>&lt;title&gt;My Page&lt;/title&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;meta&gt;</code></td>
+                        <td>Page metadata</td>
+                        <td>charset, name, content</td>
+                        <td><code>&lt;meta charset="UTF-8"&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;link&gt;</code></td>
+                        <td>Conects resources</td>
+                        <td>rel, href</td>
+                        <td><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Sectioning</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Purpose</th>
+                        <th>Attributes</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;header&gt;</code></td>
+                        <td>Introductry content</td>
+                        <td>class, id</td>
+                        <td><code>&lt;header&gt;Welcome&lt;/header&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;nav&gt;</code></td>
+                        <td>Navigation links</td>
+                        <td>aria-label</td>
+                        <td><code>&lt;nav&gt;...&lt;/nav&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;main&gt;</code></td>
+                        <td>Main page content</td>
+                        <td>id</td>
+                        <td><code>&lt;main&gt;...&lt;/main&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;section&gt;</code></td>
+                        <td>Themed content group</td>
+                        <td>id</td>
+                        <td><code>&lt;section&gt;...&lt;/section&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;article&gt;</code></td>
+                        <td>Self-contianed content</td>
+                        <td>class</td>
+                        <td><code>&lt;article&gt;...&lt;/article&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;footer&gt;</code></td>
+                        <td>Footer content</td>
+                        <td>class</td>
+                        <td><code>&lt;footer&gt;Credits&lt;/footer&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Grouping</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Purpose</th>
+                        <th>Attributes</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;div&gt;</code></td>
+                        <td>Generic contianer</td>
+                        <td>class, id</td>
+                        <td><code>&lt;div class="card"&gt;...&lt;/div&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;p&gt;</code></td>
+                        <td>Paragraph</td>
+                        <td>class</td>
+                        <td><code>&lt;p&gt;Hello!&lt;/p&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;ul&gt;</code></td>
+                        <td>Unordered list</td>
+                        <td>class</td>
+                        <td><code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;li&gt;</code></td>
+                        <td>List item</td>
+                        <td>value (ordered lists)</td>
+                        <td><code>&lt;li&gt;Item&lt;/li&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Text</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Purpose</th>
+                        <th>Attributes</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;h1&gt;</code></td>
+                        <td>Top-level heading</td>
+                        <td>id</td>
+                        <td><code>&lt;h1&gt;Title&lt;/h1&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;a&gt;</code></td>
+                        <td>Link</td>
+                        <td>href, target</td>
+                        <td><code>&lt;a href="index.html"&gt;Home&lt;/a&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;strong&gt;</code></td>
+                        <td>Strong importence</td>
+                        <td>none</td>
+                        <td><code>&lt;strong&gt;Important&lt;/strong&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;em&gt;</code></td>
+                        <td>Emphasis</td>
+                        <td>none</td>
+                        <td><code>&lt;em&gt;Note&lt;/em&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;code&gt;</code></td>
+                        <td>Code fragment</td>
+                        <td>none</td>
+                        <td><code>&lt;code&gt;color: blue;&lt;/code&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Tables</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Purpose</th>
+                        <th>Attributes</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;table&gt;</code></td>
+                        <td>Table contaner</td>
+                        <td>class</td>
+                        <td><code>&lt;table&gt;...&lt;/table&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;tr&gt;</code></td>
+                        <td>Table row</td>
+                        <td>none</td>
+                        <td><code>&lt;tr&gt;...&lt;/tr&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;th&gt;</code></td>
+                        <td>Header cell</td>
+                        <td>scope, colspan</td>
+                        <td><code>&lt;th scope="col"&gt;Name&lt;/th&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;td&gt;</code></td>
+                        <td>Data cell</td>
+                        <td>colspan, rowspan</td>
+                        <td><code>&lt;td&gt;Ada&lt;/td&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Forms</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Purpose</th>
+                        <th>Attributes</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;form&gt;</code></td>
+                        <td>Form container</td>
+                        <td>action, method</td>
+                        <td><code>&lt;form method="get"&gt;...&lt;/form&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;label&gt;</code></td>
+                        <td>Field label</td>
+                        <td>for</td>
+                        <td><code>&lt;label for="name"&gt;Name&lt;/label&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;input&gt;</code></td>
+                        <td>Single-line feild</td>
+                        <td>id, name, type, required</td>
+                        <td><code>&lt;input id="name" name="name"&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;textarea&gt;</code></td>
+                        <td>Multi-line field</td>
+                        <td>id, name, rows</td>
+                        <td><code>&lt;textarea rows="3"&gt;&lt;/textarea&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;button&gt;</code></td>
+                        <td>Clickable button</td>
+                        <td>type</td>
+                        <td><code>&lt;button type="submit"&gt;Send&lt;/button&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Global Attributes</h3>
+            <p>These attributes work on most HTML elements.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Purpose</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>id</code></td>
+                        <td>Unique element identifer</td>
+                        <td><code>&lt;p id="intro"&gt;Hello&lt;/p&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>class</code></td>
+                        <td>Reusable style or script hook</td>
+                        <td><code>&lt;p class="note"&gt;Hello&lt;/p&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>lang</code></td>
+                        <td>Language of the content</td>
+                        <td><code>&lt;p lang="en"&gt;Hello&lt;/p&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>title</code></td>
+                        <td>Extra information</td>
+                        <td><code>&lt;abbr title="Cascading Style Sheets"&gt;CSS&lt;/abbr&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>hidden</code></td>
+                        <td>Hides an element</td>
+                        <td><code>&lt;p hidden&gt;Not shown&lt;/p&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Name: Thomas Rotchford</p>
+        <p>GitHub: thomasrotchford</p>
+        <p>Date: October 31, 2026</p>
+    </footer>
+
+</body>
+</html>
