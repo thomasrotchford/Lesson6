@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Thomas Rotchford">
+    <meta name="description" content="CSS Box Model properties, valuse, and examples.">
+    <meta name="keywords" content="HTML, CSS, WebDev">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Box Model | HTML &amp; CSS Quick Reference</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML &amp; CSS Quick Reference</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ref.html">HTML Tags</a>
+        <a href="css-box-model.html">Box Model</a>
+        <a href="css-ui.html">CSS UI</a>
+        <a href="css-at-rules.html">At-Rules</a>
+        <a href="request.html">Suggest a Topic</a>
+    </nav>
+
+    <main>
+        <h2>CSS Box Model</h2>
+        <p>Each element has content, padding, border, and margin</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Purpose</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>box-sizing</code></td>
+                    <td>Controls how total width and height are calcuated</td>
+                    <td><code>box-sizing: border-box;</code></td>
+                </tr>
+                <tr>
+                    <td><code>width / height</code></td>
+                    <td>Sets an element’s size</td>
+                    <td><code>width: 250px; height: 100px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>margin</code></td>
+                    <td>Space outside the bordr</td>
+                    <td><code>margin: 16px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>border</code></td>
+                    <td>Line around the padding and content</td>
+                    <td><code>border: 1px solid black;</code></td>
+                </tr>
+                <tr>
+                    <td><code>padding</code></td>
+                    <td>Space inside the border</td>
+                    <td><code>padding: 12px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>position</code></td>
+                    <td>Sets positioning behavior</td>
+                    <td><code>position: relative;</code></td>
+                </tr>
+                <tr>
+                    <td><code>top / left</code></td>
+                    <td>Ofsets a positioned element</td>
+                    <td><code>top: 10px; left: 5px;</code></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Common positioning values</h3>
+        <p><code>static</code> (default), <code>relative</code> (offset from normal position), <code>absolute</code> (positioned relative to its containing block), <code>fixed</code> (relative to the viewport), and <code>sticky</code> (sticks while scrolling).</p>
+
+        <h3>Example</h3>
+        <pre><code>.box {
+   box-sizing: border-box;
+   width: 250px;
+   padding: 12px;
+   border: 1px solid black;
+   margin: 16px;
+ }</code></pre>
+    </main>
+
+    <footer>
+        <p>Name: Thomas Rotchford</p>
+        <p>GitHub: thomasrotchford</p>
+        <p>Date: October 31, 2026</p>
+    </footer>
+
+</body>
+</html>
