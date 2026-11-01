@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Thomas Rotchford">
+    <meta name="description" content="CSS at-rules with explanatons and examples.">
+    <meta name="keywords" content="HTML, CSS, WebDev">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS At-Rules | HTML &amp; CSS Quick Reference</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML &amp; CSS Quick Reference</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ref.html">HTML Tags</a>
+        <a href="css-box-model.html">Box Model</a>
+        <a href="css-ui.html">CSS UI</a>
+        <a href="css-at-rules.html">At-Rules</a>
+        <a href="request.html">Suggest a Topic</a>
+    </nav>
+
+    <main>
+        <h2>CSS At-Rules</h2>
+        <p>At-rules begin with <code>@</code> and controll how CSS is used.</p>
+
+        <section>
+            <h3>@media</h3>
+            <p>Applies CSS under a condition such as printing a page.</p>
+            <pre><code>@media print {
+  body { color: black; }
+}</code></pre>
+        </section>
+
+        <section>
+            <h3>@supports</h3>
+            <p>Applies CSS if the browser suports a feature.</p>
+            <pre><code>@supports (display: grid) {
+  .grid { display: grid; }
+}</code></pre>
+        </section>
+
+        <section>
+            <h3>@import</h3>
+            <p>Loads another stylesheet. Place imports before other ruls.</p>
+            <pre><code>@import url("theme.css");</code></pre>
+        </section>
+
+        <section>
+            <h3>@font-face</h3>
+            <p>Defines a font from a font file.</p>
+            <pre><code>@font-face {
+  font-family: "Example";
+  src: url("example.woff2") format("woff2");
+}</code></pre>
+        </section>
+
+        <p>File names in the <code>@import</code> and <code>@font-face</code> examples are placeholders.</p>
+    </main>
+
+    <footer>
+        <p>Name: Thomas Rotchford</p>
+        <p>GitHub: thomasrotchford</p>
+        <p>Date: October 31, 2026</p>
+    </footer>
+
+</body>
+</html>
