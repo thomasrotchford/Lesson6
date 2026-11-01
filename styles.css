@@ -73,3 +73,34 @@ main {
 .card a {
   color: var(--text-main);
 }
+
+/* Reference tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--text-main);
+  padding: 0.5em;
+}
+
+th {
+  background-color: var(--bg-card);
+}
+
+/* Code examples */
+pre {
+  background-color: #f1f5f8;
+  padding: 1em;
+}
+
+/* Suggestion form */
+form {
+  max-width: 500px;
+}
+
+form div {
+  margin-bottom: 1em;
+}
